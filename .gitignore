@@ -1,0 +1,37 @@
+# Intellij directories
+.idea/
+cmake-build-*/
+
+## make
+CMakeFiles
+*/CMakeFiles
+CMakeCache.txt
+CMakeUserPresets.json
+cmake_install.cmake
+Makefile
+makefile
+build*
+prebuilt
+
+## windows build process
+.vs
+.vscode
+/deps
+/MSVC*
+
+lib
+
+# VSCode cache files
+/.vscode/ipch/
+
+# vim swp files
+*.swp
+
+# imgui
+imgui.ini
+
+# osx
+.DS_Store
+
+# Python bytecode left by running the tools and their tests
+__pycache__/
