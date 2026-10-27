@@ -3,10 +3,14 @@
 Python tools that make and serve the Ghidra projects of the game, keep the function catalogue, and record each game
 version. The details are in `docs/tools.md`.
 
-As The Sims 4 is constantly updating, this variant of the Ghidra catalogue is version aware with function decomps
-stored in a folder named after the game version similar to other projects of mine.
+This project runs a headless process of Ghidra and communicates with it using MCP via
+[ghidra-mcp](https://github.com/LaurieWired/GhidraMCP). As The Sims 4 is constantly updating, this variant of
+the Ghidra catalogue is version-aware with function decomps stored in a folder named after the game version similar
+to other projects of mine. Git is used to keep track of the catalogue and the game versions.
 
-Here is an example directory structure:
+Overall, this project reduces the amount of work needed to research work and optimises A.I token usage.
+
+Here is an example directory structure for The Sims 4:
 
 `ghidra-catalogue\TS4_x64_1.128.90.1030\fn\000AAE80.md` where `000AAE80` is the function address.
 
